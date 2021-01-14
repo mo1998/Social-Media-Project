@@ -1,0 +1,518 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 1600px;
+    width: 1400px;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #121212 ;   
+
+}
+.BTN1{
+    width: 100px; height: 80px; position: absolute;right:100px ;top:277px; border-radius:0px 0px 30px 0px; background-color:#2d2d2d; color:#A3a3a3; 
+}
+.Main{
+    height: 100%;
+    width: 100%;
+    background: #121212 ;   
+    background-attachment: fixed;
+    position: relative;
+}
+.Orange1{
+    z-index: 5;
+    background: #e57417;
+    position: fixed;
+    height: 10%;
+    width: 99.9%;
+    border-radius:0px 0px 40px 0px;
+    margin-top: 0px;
+}
+.Orange2{
+    z-index: 5;
+    background: #e57417;
+    position: fixed;
+    top: 10%;
+    height: 85%;
+    width: 15%;
+    border-radius:0px 0px 70px 0px;
+
+}
+.Orange3{
+    z-index: 3;
+    background: #e57417;
+    position: fixed;
+    left: 15%;
+    top: 10%;
+    height: 30px;
+    width: 80%;
+    border-radius:0px 0px 30px 0px;
+}
+.Gray{
+    z-index: 4;
+    background: #121212 ;   position: fixed;
+    left: 15%;
+    top: 10%;
+    height: 30px;
+    width: 80%;
+    border-radius:30px 0px 0px 0px;
+}
+.Background{
+    z-index: 1;
+    background: #121212;    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.AddPost{
+    z-index: 5;
+    background: #121212;    position: fixed;
+    right: 60px;
+    bottom: 40px;
+}
+.Chat{
+    z-index: 5;
+    background: #121212;    position: fixed;
+    right: 60px;
+    top: 20%;
+}
+.change{
+    overflow-y: auto;
+    z-index: 2;
+    position: fixed;
+    left: 17%;
+    top: 3%;
+    margin: 10px;
+    height: 530px;
+    width: 1133px;
+    margin: 60px 0px 0px 0px;
+    overflow-x: hidden;
+}
+.Logo{
+    margin: 3px 0px;
+    top: 0px;
+    width: 340px;
+    position: fixed;
+}
+.Search{
+    border-radius: 0 0 15px 15px;
+    padding: 0 10px;
+    position: fixed;
+    width: 45%;
+    height: 40px;
+    left: 28.5%;
+    top: 12px;
+    border: none;
+    line-height: 2em;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 3;
+    background-color: #121212;
+  }
+.SearchIcon{
+    position: fixed;
+    left: 71%;
+    top: 15px;
+    height: 35px;
+    width: 35px;
+}
+.PP{
+    position: fixed;
+    left: 80%;
+    top: 0px;
+    height: 60px;
+    width: 60px;
+}
+.User{
+    color: #121212;
+    position: fixed;
+    left: 84.5%;
+    top: 9px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Log{
+    color: #121212;
+    position: fixed;
+    left: 84.5%;
+    top: 35px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.HomePageIcon{
+    position: fixed;
+    left: 10.5px;
+    top: 12%;
+    height: 90px;
+    width: auto;
+}
+.NotificationIcon{
+    position: fixed;
+    left: 98px;
+    top: 12%;
+    height: 90px;
+    width: auto;
+}
+.PagesIcon{
+    position: fixed;
+    left: 10.5px;
+    top: 25%;
+    height: 90px;
+    width: auto;
+}
+.GroupsIcon{
+    position: fixed;
+    left: 98px;
+    top: 25%;
+    height: 90px;
+    width: auto;
+}
+.MentionList{
+    overflow: auto;
+    overflow-x: hidden;
+    position: fixed;
+    width: 140px;
+    height: 160px;
+    left: 17px;
+    top: 42%;
+    border-width: 3px;
+    border-color: #121212;
+    border-style: solid;
+    border-radius:10px 10px 0px 0px;
+    padding: 10px;
+}
+.Mask{
+    background-color:#e57417;
+    position: fixed;
+    top: 39.5%;
+    left: 30px;
+    width: 35px;
+    color: #121212;
+    font-weight: bold;
+    font-size: 25px;
+    padding:0px 0px 0px 10px;
+
+}
+.List{
+    margin: 10px;
+    font-size: 17px;
+    color: #121212;
+    line-height: 20px;
+}
+.MList{
+    text-decoration: none;
+    color: #121212;
+}
+.MList:hover{
+    background-color: #d36f17;
+}
+.AddFriend{
+    position: fixed;
+    width: 149px;
+    height: 30px;
+    left: 17px;
+    top: 71.9%;
+    border-color: #121212;
+    background-color: #121212;
+    border-width: 3px;
+    padding:0px 5px;
+    font-size: 16px;
+}
+.Add{
+    position: fixed;
+    width: 91px;
+    height: 30px;
+    left: 17px;
+    top: 77.6%;
+    background-color: #121212;
+    border-radius: 0px 0px 0px 20px;
+    border-color: #121212;
+    border-width: 3px;
+}
+.AddImage{
+    position: fixed;
+    width: 35px;
+    height: 30px;
+    left: 39px;
+    top: 77.6%;
+}
+.Delete{
+    position: fixed;
+    width: 91px;
+    height: 30px;
+    left: 92px;
+    top: 77.6%;
+    background-color: #121212;
+    border-radius: 0px 0px 20px 0px;
+    border-color: #121212;
+    border-width: 3px;
+}
+.DeleteImage{
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 122px;
+    top: 77.6%;
+}
+.Text{
+    position: fixed;
+    color: #121212;
+    font-size: 25px;
+    top: 84%;
+    left:15px;
+}
+.BTN1{
+    width: 100px; height: 80px; position: absolute;right:100px ;top:277px; border-radius:0px 0px 30px 0px; background-color:#2d2d2d; color:#A3a3a3; 
+}
+.BTN{
+    background-color: #121212;
+    color: #a3a3a3;
+    position: fixed;
+    top: 89%; left: 13px;
+    min-width: 150Px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.info{
+    width: 800px;
+}		
+.inform{
+    top: 15px;
+    background-color: #121212;
+    width:800px;
+    height:245px;
+    border-radius:30px;
+    position: relative;
+}
+.profile-photo {
+	padding: 5px;
+	width: 200px;
+	height:200px;
+    position:absolute;
+    top: 15px;
+    left: 17px;
+    border-radius: 30px;
+}
+.profile-photo img
+{
+    border-radius: 60px;
+	width: 200px;
+	height:200px;
+}
+.profile-name
+{
+    position:absolute;
+    top: 30px;
+    left: 250px;
+	padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.description{
+    position: absolute;
+    left: 255px;
+    top: 95px;
+    width:150px;
+}
+.like{
+    width: 50px;
+    height: 50px;
+}
+.presslike{
+    height: 60px;
+    width: 60px;
+    right: 40px;
+    bottom: 25px;
+    background-color: white;
+    cursor:pointer;
+    border-style: none;
+    position: absolute;
+}
+#posts {
+    display: flex;
+    align-items: stretch;
+    flex-flow: column;
+    position: relative;
+    justify-content: center;
+    top: 50px;
+    left: -10px;
+}
+section {
+    background: white;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    width: 800px;
+    height: auto;
+    display: grid;
+    grid:
+      [header-start] "photo name options" 75px
+      [content-start]"content content content"auto
+      [footer-start] "like comment share" 110px
+      /[like]100px [comment]600px [share]100px;  
+      overflow: auto;
+}
+.post h2 {
+	padding: 20px;
+	font-size: 30px;
+    align-items: center;
+    justify-content: center;
+	margin-top: auto;
+    grid-area: name;
+    position: relative;
+    overflow: auto;
+}
+section img {
+    margin: 20px;
+    width: 50px;
+    height: auto;
+}
+.Frm{
+    grid-area:comment;	
+	border-top: 4px solid #e0dbd6;
+}
+#comment {
+    font-size: 16px;
+    color:gray;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    font-size:30px;
+    border-color:#e0dbd6;
+    border-radius:0 0 30px 30px;
+}	 
+.pes {
+   border-top: 4px solid #e0dbd6;
+   grid-area: like;
+   padding: 5px;
+   height: 110px;
+   border-radius: 0px 0px 0px 30px;
+   background-color: white;
+   border-right: white;
+   border-bottom: white;
+   border-left: white;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   width: 100px;
+}
+.pes img{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    height: 70px;
+    width: 50px;
+    background-color: white;
+}
+.share {
+	border-top: 4px solid #e0dbd6;
+	grid-area: share;
+    padding: 5px;
+    height: 50px;
+    border-radius: 0px 0px 30px 0px;
+	background-color: white;
+    border-right: white;
+    border-bottom: white;
+    border-left: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+}
+.share img
+{
+	width: 60px;
+	height:60px;
+}
+.head{
+    position: absolute;
+    left: -30px;
+}
+.info
+{
+	grid-area: content;
+	padding:15px;
+	margin-bottom:25px;
+	margin-top: 35px;
+	margin-left: 50px;
+	margin-right: 10px;
+    font-size: 25px;
+}
+
+/* Button to list */
+.dropbtn {
+    position: relative;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    top: -15px;
+    right: -700px;
+    width: 40px;
+    height: 40px;
+}
+.options {
+    position: relative;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .drop-content {
+    top: 30px;
+    right: 55px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  .drop-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
